@@ -59,7 +59,7 @@ export default function deleteIt() {
                 { collection: collectionToDelete }
               )
             )
-          }).catch(error => {
+          }).catch(err => {
             reject(
               error.call(
                 this,
